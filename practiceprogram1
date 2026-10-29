@@ -1,0 +1,6 @@
+a=float(input('Enter side a of a triangle:'))
+b=float(input('Enter side b of a triangle:'))
+c=float(input('Enter side c of a triangle:'))
+s=(a+b+c)/2
+A=(s(s-a)(s-b)(s-c)**0.5)
+print('Area of the triangle=',A)

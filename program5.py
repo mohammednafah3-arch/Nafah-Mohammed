@@ -1,0 +1,18 @@
+integer=int(input('Enter the integer value      :'))
+floating=float(input('Enter float value         :'))
+text=input('Enter the string                    :')
+boolean=bool(input('Enter boolean value         :'))
+a=integer+floating
+m=text*boolean
+print('The entered integer is                    :',integer)
+print('The entered floating point is             :',floating)
+print('The entered string is                     :',text)
+print('The entered boolean is                    :',boolean)
+print('The entered integer value is              :',type(integer))
+print('The entered floating value is             :',type(floating))
+print('The entered string value is               :',type(text))
+print('The entered boolean value is              :',type(boolean))
+print('Sum of integer and floating is            :',a)
+print('Multiplication of text and boolean is     :',m)
+print('Length of the string is                   :',len(text))
+print('The string in uppercase is                :',text.upper())
